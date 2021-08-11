@@ -10,9 +10,12 @@ Look up CSS margin and padding.
 Give the body a margin of 0. (This removes the whitespace around the edges of the page.)
 Give the main padding of 1em. (Curious about em? Look up CSS units.) */
 body{
+  margin: 0;
   background-image: url(record.png);
+  background-repeat: repeat;
   background-color: #ffd0bb;
-  color: purple;
+  color: #9977dd;
+  font-family: arial;
 }
 header{
   background-color: darkblue;
@@ -21,8 +24,11 @@ header{
 }
 
 main{
+  margin: 2px;
+  padding: 1em;
+
   background-color: lightgrey;
   color: brown;
-  
+
 }
 /* STRETCH GOAL: Use CSS style classes vs element names to do your styling, except for adding the margin to the body. That is a good thing to add to every CSS file, and it should use the body HTML tag name. */
