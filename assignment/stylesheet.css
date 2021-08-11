@@ -9,7 +9,11 @@ Look up CSS background-repeat to learn how to fill the body of the page with a r
 Look up CSS margin and padding.
 Give the body a margin of 0. (This removes the whitespace around the edges of the page.)
 Give the main padding of 1em. (Curious about em? Look up CSS units.) */
-
+body{
+  background-image: url(record.png);
+  background-color: #ffd0bb;
+  color: purple;
+}
 header{
   background-color: darkblue;
   color: #c0ffee;
@@ -18,6 +22,7 @@ header{
 
 main{
   background-color: lightgrey;
-
+  color: brown;
+  
 }
 /* STRETCH GOAL: Use CSS style classes vs element names to do your styling, except for adding the margin to the body. That is a good thing to add to every CSS file, and it should use the body HTML tag name. */
